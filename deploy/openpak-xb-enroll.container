@@ -20,7 +20,7 @@ NoNewPrivileges=true
 User=10001:10001
 EnvironmentFile=%h/openpak/deploy/xbox/xb-enroll.env
 Volume=%h/openpak/deploy/xbox/pki/enroll:/run/xb:ro
-HealthCmd=/xb-enroll healthcheck
+HealthCmd=["/xb-enroll", "healthcheck"]
 HealthInterval=30s
 # No PublishPort: only Traefik (same container network) reaches :8080.
 
