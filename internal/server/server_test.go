@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"openpak/xb-live/internal/xbenrolapi"
+	"github.com/openpak/xb-common/xbenrolapi"
 )
 
 const (

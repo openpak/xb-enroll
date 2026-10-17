@@ -18,8 +18,8 @@ import (
 	"syscall"
 	"time"
 
-	"openpak/xb-live/internal/xbenrolapi"
-	"openpak/xb-live/services/xb-enroll/internal/server"
+	"github.com/openpak/xb-common/xbenrolapi"
+	"github.com/openpak/xb-enroll/internal/server"
 )
 
 func required(name string) string {

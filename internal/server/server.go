@@ -23,8 +23,8 @@ import (
 	"strings"
 	"time"
 
-	"openpak/xb-live/internal/ratelimit"
-	"openpak/xb-live/internal/xbenrolapi"
+	"github.com/openpak/xb-common/ratelimit"
+	"github.com/openpak/xb-common/xbenrolapi"
 )
 
 // Backend is xb-account's enrolment surface (xbenrolapi.Client).

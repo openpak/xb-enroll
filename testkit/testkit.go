@@ -7,8 +7,8 @@ package testkit
 import (
 	"net/http"
 
-	"openpak/xb-live/internal/xbenrolapi"
-	"openpak/xb-live/services/xb-enroll/internal/server"
+	"github.com/openpak/xb-common/xbenrolapi"
+	"github.com/openpak/xb-enroll/internal/server"
 )
 
 // Handler is the public xb-enroll handler talking to xb-account at base over
