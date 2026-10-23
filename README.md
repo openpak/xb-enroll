@@ -10,7 +10,7 @@ Thin public front for device-pairing enrolment of an original Xbox. Stateless
 All state and decisions live in xb-account, reached over mTLS with the client
 identity `spiffe://openpak/xb-enroll`; xb-account authorizes that identity for
 the two enrolment routes only. The console-facing contract, limits, error codes
-and the state machine are in workspace `docs/xbox/enrolment-contract.md`.
+and the state machine are in internal research notes.
 
 Configuration: `deploy/env/xb-enroll.env.example`. Image: `deploy/docker/Dockerfile.xb-enroll`
 (or this directory's Dockerfile). Quadlet template: `deploy/quadlet/openpak-xb-enroll.container`.
