@@ -31,7 +31,7 @@ GOWORK=off go run ./cmd/xb-enroll
 
 - [Protocol](docs/protocol.md)
 - [Deploy](docs/deploy.md)
-- [Notes](docs/notes.md)
+- [Provenance](docs/provenance.md)
 
 ## Licence
 
