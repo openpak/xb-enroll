@@ -30,7 +30,6 @@ GOWORK=off go run ./cmd/xb-enroll
 ## Docs
 
 - [Protocol](docs/protocol.md)
-- [Evidence](docs/evidence.md)
 - [Deploy](docs/deploy.md)
 - [Notes](docs/notes.md)
 
